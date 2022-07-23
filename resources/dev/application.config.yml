@@ -1,5 +1,5 @@
 name: Ultimate Application
-description: Application which can autoload the configuration and performs all the necessary stuffs
+description: Application which can autoload the configuration and performs all the necessary stuffs.
 author: Devashish Mali
 port: 8080
 environment: dev

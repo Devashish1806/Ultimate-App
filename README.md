@@ -26,6 +26,8 @@
 
 An Ultimate Application Repository.
 
+Application which can autoload the configuration and performs all the necessary stuffs.
+
 ## Installation
 
 ```bash

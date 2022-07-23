@@ -1,8 +1,8 @@
 {
-  "name": "app",
+  "name": "ultimate-app",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Application which can autoload the configuration and performs all the necessary stuffs.",
+  "author": "Devashish Mali",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
