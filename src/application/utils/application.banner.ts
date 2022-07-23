@@ -5,7 +5,6 @@ export class MyAppBanner {
   static async load() {
     return new Promise(async (resolve, reject) => {
       figlet(MyApp.appConfig.name, function (err: any, data: any) {
-        console.log();
         if (err) {
           console.log('Something went wrong... ', err);
           reject(err);
