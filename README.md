@@ -26,9 +26,10 @@
 
 An Ultimate Application Repository.
 
-Devashish Mali
 [Devashish Mali | Mail](devashish.mali06@gmail.com)
+
 [Devashish Mali | LinkedIn](nkedin.com/in/devashish-mali-b4330512a)
+
 [Devashish Mali | GitHub](https://github.com/Devashish1806)
 
 ## Installation
