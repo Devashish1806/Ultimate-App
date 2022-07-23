@@ -18,7 +18,6 @@ export class ConfigurationParser {
       this.__environment,
     );
     this.__parseConfig(this.__baseResourcePath);
-    console.log(this);
   }
 
   static getInstance(): ConfigurationParser {
