@@ -24,7 +24,7 @@
 
 ## Description
 
-An Ultimate Application Repository.
+Ultimate Application by Devashish Mali.
 
 Application which can autoload the configuration and performs all the necessary stuffs.
 
