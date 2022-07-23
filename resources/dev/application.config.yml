@@ -4,7 +4,7 @@ author: Devashish Mali
 port: 8080
 environment: dev
 modules:
-  admin: 
+  admin:
     active: true
     name: Admin
   auth:

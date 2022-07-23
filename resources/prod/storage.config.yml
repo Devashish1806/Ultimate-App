@@ -1,9 +1,9 @@
 databases:
   mongodb:
     active: false
-    host: ""
-    port: ""
+    host: ''
+    port: ''
   mysql:
     active: false
-    host: ""
-    port: ""
+    host: ''
+    port: ''

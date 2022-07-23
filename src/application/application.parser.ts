@@ -5,8 +5,8 @@ import * as yaml from 'js-yaml';
 import { existsSync, readFileSync, statSync } from 'fs';
 import { ConfigModule } from '@nestjs/config';
 
-export class ConfigurationParser {
-  private static __instance: ConfigurationParser = null;
+export class MyAppParser {
+  private static __instance: MyAppParser = null;
   private __baseResourcePath: string = null;
   private __baseModulePath: string = null;
   private __config: any = {};
@@ -26,12 +26,12 @@ export class ConfigurationParser {
     this.__loadModules();
   }
 
-  static getInstance(): ConfigurationParser {
-    if (ConfigurationParser.__instance === null) {
-      ConfigurationParser.__instance = new ConfigurationParser();
-      Object.freeze(ConfigurationParser.__instance);
+  static getInstance(): MyAppParser {
+    if (MyAppParser.__instance === null) {
+      MyAppParser.__instance = new MyAppParser();
+      Object.freeze(MyAppParser.__instance);
     }
-    return ConfigurationParser.__instance;
+    return MyAppParser.__instance;
   }
 
   get config() {

@@ -1,11 +1,11 @@
-import { ConfigurationParser } from './configuration.parser';
+import { MyAppParser } from './application.parser';
 
 export class MyApp {
   private static __instance: MyApp = null;
   private __config: any = null;
 
   private constructor() {
-    this.__config = ConfigurationParser.getInstance().config;
+    this.__config = MyAppParser.getInstance().config;
   }
 
   static getInstance(): MyApp {
