@@ -68,7 +68,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## Ultimate App
+## Ultimate App Author
 
 - Mail - [Devashish Mali | Mail](devashish.mali06@gmail.com)
 - LinkedIn - [Devashish Mali | LinkedIn](nkedin.com/in/devashish-mali-b4330512a)
