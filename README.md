@@ -26,12 +26,6 @@
 
 An Ultimate Application Repository.
 
-[Devashish Mali | Mail](devashish.mali06@gmail.com)
-
-[Devashish Mali | LinkedIn](nkedin.com/in/devashish-mali-b4330512a)
-
-[Devashish Mali | GitHub](https://github.com/Devashish1806)
-
 ## Installation
 
 ```bash
@@ -73,7 +67,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
-- Ultimate App Author - [Devashish Mali](http://linkedin.com/in/devashish-mali-b4330512a/)
+
+## Ultimate App
+
+- Mail - [Devashish Mali | Mail](devashish.mali06@gmail.com)
+- LinkedIn - [Devashish Mali | LinkedIn](nkedin.com/in/devashish-mali-b4330512a)
+- GitHub - [Devashish Mali | GitHub](https://github.com/Devashish1806)
 
 ## License
 
