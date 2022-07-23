@@ -23,13 +23,4 @@ export class MyApp {
   static get modules() {
     return this.getInstance().__config.modules;
   }
-
-  static get dbConfig() {
-    const db: any = Object.values(
-      this.getInstance().__config.storage.database,
-    ).find((dbConfig) => {
-      return dbConfig['active'];
-    });
-    return db;
-  }
 }
