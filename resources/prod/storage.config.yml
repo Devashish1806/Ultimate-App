@@ -7,3 +7,17 @@ databases:
     active: false
     host: ''
     port: ''
+caches:
+  memory:
+    active: true
+    host: ''
+    port: ''
+  redis:
+    active: true
+    host: ''
+    port: ''
+states:
+  azureblob:
+    active: false
+    host: ''
+    port: ''

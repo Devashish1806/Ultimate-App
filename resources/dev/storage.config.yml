@@ -1,9 +1,23 @@
 databases:
   mongodb:
     active: false
-    host: ""
-    port: ""
+    host: ''
+    port: ''
   mysql:
     active: false
-    host: ""
-    port: ""
+    host: ''
+    port: ''
+caches:
+  memory:
+    active: true
+    host: ''
+    port: ''
+  redis:
+    active: true
+    host: ''
+    port: ''
+states:
+  azureblob:
+    active: false
+    host: ''
+    port: ''
