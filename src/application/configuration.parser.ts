@@ -17,7 +17,8 @@ export class ConfigurationParser {
       'resources',
       this.__environment,
     );
-    this.__parseConfig(this.__baseResourcePath);
+    this.__parseApplicationConfig(this.__baseResourcePath);
+    this.__loadModules();
   }
 
   static getInstance(): ConfigurationParser {
@@ -46,6 +47,11 @@ export class ConfigurationParser {
     return env;
   }
 
+  private __parseApplicationConfig(resourceFolder: string) {
+    this.__parseConfig(resourceFolder);
+    this.__parseModules();
+  }
+
   private __parseConfig(resourceFolder: string) {
     const configFiles: string[] = readdirSync(resourceFolder).filter((file) => {
       return file.match(
@@ -69,4 +75,8 @@ export class ConfigurationParser {
       return yaml.load(readFileSync(file, 'utf-8'));
     else return readJSONSync(file);
   }
+
+  private __parseModules() {}
+
+  private __loadModules() {}
 }
