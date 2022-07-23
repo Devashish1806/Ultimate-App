@@ -161,7 +161,7 @@ export class MyAppParser {
         isGlobal: true,
         load: [
           () => {
-            return null;
+            return this.__config;
           },
         ],
       }),
