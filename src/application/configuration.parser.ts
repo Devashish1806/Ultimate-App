@@ -18,6 +18,7 @@ export class ConfigurationParser {
       this.__environment,
     );
     this.__parseConfig(this.__baseResourcePath);
+    console.log(this);
   }
 
   static getInstance(): ConfigurationParser {
@@ -33,7 +34,17 @@ export class ConfigurationParser {
   }
 
   private __parseEnvironment(): string {
-    return 'dev';
+    let env = 'dev';
+    process.argv.forEach((value, index) => {
+      if (index === 2) {
+        try {
+          env = value.split('=')[1];
+        } catch (err) {
+          console.error(err);
+        }
+      }
+    });
+    return env;
   }
 
   private __parseConfig(resourceFolder: string) {
