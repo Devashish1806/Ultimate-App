@@ -10,3 +10,6 @@ modules:
   auth:
     active: true
     name: Auth
+  email:
+    active: true
+    name: Email
