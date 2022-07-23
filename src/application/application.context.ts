@@ -21,8 +21,7 @@ export class MyApp {
   }
 
   static get modules() {
-    // return this.appConfig.modules;
-    return [];
+    return this.getInstance().__config.modules;
   }
 
   static get dbConfig() {
